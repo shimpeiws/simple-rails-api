@@ -1,2 +1,0 @@
-class ItemssController < ApplicationController
-end
