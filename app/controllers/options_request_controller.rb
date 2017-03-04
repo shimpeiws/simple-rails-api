@@ -1,6 +1,6 @@
 class OptionsRequestController < ApplicationController
   ACCESS_CONTROL_ALLOW_METHODS = %w(GET OPTIONS).freeze
-  ACCESS_CONTROL_ALLOW_HEADERS = %w(Accept Origin Content-Type).freeze
+  ACCESS_CONTROL_ALLOW_HEADERS = %w(Accept Origin Content-Type Authorization).freeze
   ACCESS_CONTROL_MAX_AGE = 86_400
 
   def preflight
