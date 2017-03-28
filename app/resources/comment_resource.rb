@@ -1,3 +1,3 @@
 class CommentResource < JSONAPI::Resource
-  attributes :name, :item_id
+  attributes :body, :item_id
 end
